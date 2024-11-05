@@ -57,7 +57,7 @@ router.get('/', async (req, res) => {
                 }, {
                     quoted: xeonses
                 });
-				await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `🛑Do not share this file with anybody\n\n© Know grey and recognise grey-tness` }, {quoted: xeonses});
+				await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `ᴛʜɪs ғɪʟᴇ ɪs ᴘʀɪᴠᴀᴛᴇ,ᴜsᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ\nᴋᴇᴇᴘ ᴛʜᴇ ғɪʟᴇ ʙᴇᴄᴀᴜsᴇ ɪᴛ ᴍɪɢʜᴛ sᴛɪʟʟ ʙᴇ ɴᴇᴇᴅᴇᴅ.\nғᴏʟʟᴏᴡ ᴄʜᴀɴɴᴇʟ-https://whatsapp.com/channel/0029VaefL9g0gcfLITSc841W\n\n ᴋɴᴏᴡ ɢʀᴇʏ ᴀɴᴅ ʀᴇᴄᴏɢɴɪᴢᴇ ɢʀᴇʏ-ᴛɴᴇss🍀\n@ɢʀᴇʏ.ɪɴᴄ` }, {quoted: xeonses});
         await delay(100);
         return await removeFile('./session');
         process.exit(0)
